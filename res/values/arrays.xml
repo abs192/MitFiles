@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="branch">
+        <item>CSE</item>
+    </string-array>
+    <string-array name="page">
+        <item>Files</item>
+        <item>Websis</item>
+        <item>Offline MITFILES</item>
+    </string-array>
+    
+    <color name="dkblue">#2890b7</color>
+    <color name="blue">#33b5e5</color>
+
+</resources>

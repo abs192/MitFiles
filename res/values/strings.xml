@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIT.FILES</string>
+    <string name="action_settings">Settings</string>
+    <string name="cred_name">About</string>
+    <string name="Att">Attendance</string>
+    <string name="Ref">Refresh</string>
+    <string name="submit">Log in</string>
+    <string name="rem">Remember me</string>
+    <string name="clear">Clear Login Data</string>
+    <string name="img">IMAGEClear</string>
+    <string name="rHint">Reg. No.</string>
+    <string name="bHint">Birth date (YYYY-MM-DD)</string>
+    <string name="Code">Code</string>
+    <string name="Name">Name</string>
+    <string name="Classes">Total</string>
+    <string name="Attended">Pr</string>
+    <string name="Absent">Ab</string>
+    <string name="appteam">App Team : </string>
+    <string name="source">Source : </string>
+    <string name="mitfiles">http://resource.mitfiles.com</string>
+    <string name="sourcecredits">Credits : </string>
+    <string name="abs">Aditya Shetty</string>
+    <string name="subev">Subramanian E V</string>
+    <string name="pvt">Prashant Tiwari</string>
+    <string name="specialcreds">Special Credits : </string>
+    <string name="Percent">%</string>
+    <string name="Updated">Updated</string>
+    <string name="imagelist">Image List Item</string>
+    <string name="rate_name">Rate</string>
+    <string name="general">GENERAL</string>
+    <string name="my_department">My department</string>
+    <string name="cse">CSE</string>
+    <string name="my_page">Default Start-up Page</string>
+    <string name="files">FILES<stirng></stirng></string>
+    <string name="off">OFF</string>
+    <string name="other">OTHER</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="title_activity_link">LinkActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

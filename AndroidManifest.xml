@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abs192.mitfiles"
+    android:versionCode="8"
+    android:versionName="3.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:grantUriPermissions="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.abs192.mitfiles.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abs192.mitfiles.LinkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data android:host="resource.mitfiles.com" >
+                </data>
+                <data android:scheme="http" >
+                </data>
+                <data android:pathPattern=".*" >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abs192.mitfiles.Cred"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_CRED_MITFILES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abs192.mitfiles.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.abs192.mitfiles.ResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESULT_MITFILES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.abs192.mitfiles.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
